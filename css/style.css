@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+button {
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+    outline: none;
+}
+
+#header {
+    box-shadow: 0 0 0 2px #BCD0E5;
+    padding: 25px 0;
+}
+
+.dark {
+    background: #1F2E35;
+    transition: 1s;
+}
+
+.white {
+    transition: 1s;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo h1 {
+    padding-left: 16px;
+    color: #173A56;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.dark .header-logo h1 {
+    color: white;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav a {
+    padding: 0 15px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dark .header-nav a {
+    color: white;
+}
+
+.header-btn-one {
+    padding: 10px 25px;
+    border: 2px solid #BCD0E5;
+    color: #173A56;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dark .header-btn-one {
+    color: white;
+}
+
+.header-btn-two {
+    border-radius: 4px;
+    background: #02897A;
+    padding: 10px 25px;
+    margin: 0 24px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-btn-three {
+    color: #02897A;
+    font-size: 23px;
+    border-radius: 50%;
+    background: #F3F3F3;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero {
+    padding: 50px 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h1 {
+    width: 418px;
+    color: #22343D;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.dark .hero-text h1 {
+    color: white;
+}
+
+.hero-text p {
+    padding: 18px 0 45px 0;
+    color: #22343D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 458px;
+}
+
+.dark .hero-text p {
+    color: white;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+}
+
+.hero-btn button {
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 4px;
+    background: #02897A;
+    padding: 15px 41px;
+    font-weight: 700;
+}
+
+
+.hero-btn a ion-icon {
+    color: #02897A;
+    font-size: 20px;
+    padding: 0 8px 0 30px;
+}
+
+.hero-btn a {
+    display: flex;
+    align-items: center;
+}
+
+.hero-btn a h3 {
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
